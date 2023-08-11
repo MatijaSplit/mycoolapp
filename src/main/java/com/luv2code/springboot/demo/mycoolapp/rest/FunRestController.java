@@ -8,6 +8,8 @@ public class FunRestController {
 	
 	// expose "/" that returns hello world
 	
+	//Github push test
+	
 	@GetMapping("/")
 	public String sayHello(){
 		return "Hello World";
